@@ -1,0 +1,25 @@
+body{
+    background-color: #555;
+    color: white;
+}
+.gameMap{
+    width: 500px;
+    height: 500px;
+    border: 5px solid #444;
+}
+.gameMap div{
+    width: 48px;
+    height: 48px; 
+    border: 1px solid #888;
+    float: left;
+}
+ .gameMap .pac{
+     background-image: url(Chain-Chomp-icon.png);
+ }
+ .gameMap .coin{
+     background-image: url(coin-icon.png);
+ } 
+ 
+ .gameMap .bomb{
+     background-image: url(Bomb-Cool-icon.png);
+ }
